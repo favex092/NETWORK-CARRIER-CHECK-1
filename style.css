@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+}
+
+body {
+  display: grid;
+  place-items: justfy-content;
+  background-image: url("pexels.jpg");
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  width:100vw;
+  height:100vh;
+  align-items: center;
+}
+.Mobile-number{
+  align-items: center;
+  padding-left: 450px;
+  color: coral; 
+  
+}
+#number{
+  margin:30px;
+  margin-left: 100px;
+}
+#check-network{
+  display: grid;
+  margin-left: 150px;
+}
+.Mobile-number h1{
+  font-style: italic;
+  line-height: 30px;  
+}
+.Mobile-number button{
+  padding: 10px 10px;
+  background: lightgoldenrodyellow;
+  border-radius: 10px;
+  border: none;
+  font-size: 14px;
+  font-weight: 800;
+  cursor: pointer;
+}
+.Mobile-number button:hover{
+  color: darkgoldenrod;
+  background: lightgray;
+  border: 2px solid palegoldenrod;
+}
+@media(min-width: 1020px)  {
+  body{
+    padding: 125px;
+    padding-left: 50px;
+  }
+  h1{
+    font-size: 2.0rem;
+  }
+  input{
+    font-size: 1.0rem;
+  }
+  button{
+    font-size: 1.0rem;
+  }
+}
+
+@media(max-width: 1000px) {
+  body{
+    text-align: center; 
+    justify-content: center;
+    min-height: 100vh;
+    padding-right: 500px;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+  }
+  h1{
+    font-size: 2.0rem;
+   }
+  input{
+    font-size: 1.5rem;
+  }
+  button{
+    font-size: 1.5rem;
+  }
+} 
